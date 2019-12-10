@@ -5,3 +5,4 @@
 - index. html file
 - css file with responisve design 
 
+**this project depened on your skill of responsive design**
