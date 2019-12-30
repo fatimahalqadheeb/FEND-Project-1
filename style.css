@@ -1556,11 +1556,11 @@ img{
     font-size:17px;
     text-transform:capitalize;
     opacity:1;
-/*    -webkit-transition:all 300ms ease;
-    -ms-transition:all 300ms ease;
-    -o-transition:all 300ms ease;
-    -moz-transition:all 300ms ease;
-    transition:all 300ms ease;	*/
+    /*    -webkit-transition:all 300ms ease;
+        -ms-transition:all 300ms ease;
+        -o-transition:all 300ms ease;
+        -moz-transition:all 300ms ease;
+        transition:all 300ms ease;	*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1629,11 +1629,11 @@ img{
     width:100%;
     border-bottom:1px solid #f2f2f2;
     text-transform:capitalize;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
 }
 
 .main-menu .navigation > li > .mega-menu{
@@ -1649,10 +1649,10 @@ img{
     /*add these here by fatimah alqadheeb */
     background-position:right bottom;
     background-repeat:no-repeat;
-   
+
     transition:all 200ms ease; 
     -webkit-transition:all 200ms ease;
-    
+
     -moz-transition:all 200ms ease;
     -ms-transition:all 200ms ease;
     -o-transition:all 200ms ease;
@@ -1724,11 +1724,11 @@ img{
     width:100%;
     border-bottom:1px solid #f2f2f2;
     text-transform:capitalize;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
 }
 
 .main-menu .navigation > li .mega-menu-bar .column{
@@ -1750,11 +1750,11 @@ img{
     color:#848484;
     text-align:left;
     text-transform:capitalize;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
     font-family: 'Rubik', sans-serif;
 }
 
@@ -1772,11 +1772,11 @@ img{
     color:#848484;
     text-align:left;
     text-transform:capitalize;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
     font-family: 'Rubik', sans-serif;
 }
 
@@ -1832,11 +1832,11 @@ img{
     width:100%;
     border-bottom:1px solid #f2f2f2;
     text-transform:capitalize;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
 }
 
 .main-menu .navigation > li > ul > li > ul > li:hover{
@@ -1857,11 +1857,11 @@ img{
     color: #848484;
     text-align: left;
     text-transform: capitalize;
-/*    transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -webkit-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;*/
+    /*    transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;*/
     font-family: 'Rubik', sans-serif;
 }
 
@@ -1874,22 +1874,22 @@ img{
     opacity:1;
     top:100%;
     margin-top:2px;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
 }
 
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
     visibility:visible;
     opacity:1;
     top:0px;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;	*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;	*/
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn{
@@ -1899,12 +1899,14 @@ img{
     width:34px;
     height:30px;
     border:1px solid #90a4ae;
-/*    border:1px solid #ffffff;*/
+
+    /*    border:1px solid #ffffff;*/
     text-align:center;
     font-size:18px;
     line-height:26px;
     color:#c4c4c4;
-/*    color:#ffffff;*/
+
+    /*    color:#ffffff;*/
     cursor:pointer;
     z-index:5;
     display:none;
@@ -1914,11 +1916,11 @@ img{
     position:relative;
     background:#ffffff;
     z-index:5;
-/*    transition:all 500ms ease;
-    -moz-transition:all 500ms ease;
-    -webkit-transition:all 500ms ease;
-    -ms-transition:all 500ms ease;
-    -o-transition:all 500ms ease;*/
+    /*    transition:all 500ms ease;
+        -moz-transition:all 500ms ease;
+        -webkit-transition:all 500ms ease;
+        -ms-transition:all 500ms ease;
+        -o-transition:all 500ms ease;*/
 }
 
 .main-header .header-upper .logo img{
