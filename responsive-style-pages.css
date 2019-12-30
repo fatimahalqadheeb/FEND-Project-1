@@ -1,0 +1,90 @@
+@media screen and (max-width:480px)
+{
+    .main-header .main-box .logo-box .logo img{
+        height: 100px;
+        padding: 1rem;
+    }
+    .fixed-header .main-box .logo-box .logo img{
+        opacity: 1;
+    }
+    .nav-outer .main-menu .navbar-header{
+        top: 7rem;
+    }
+    .outer-box .search-box-outer .dropdown{
+        bottom: 5rem;
+    }
+
+    .services-section .container-a .inner-box p{
+        font-size: 13px;
+    }
+    .services-section .strip .inner-box img{
+        padding-bottom: .5rem;
+    }
+    .strip .inn-bg .container-a .row {
+        margin-bottom: 6rem;
+    }
+    .services-section .inner-container{
+        margin-top: 0rem;
+    }
+}
+@media screen and (max-width:764px) and (min-width:480px)
+{
+    .main-header .main-box .logo-box .logo img{
+        height: 100px;
+        padding: 1rem;
+    }
+    .nav-outer .main-menu .navbar-header{
+        top: 11.5rem;
+    }
+    .outer-box .search-box-outer .dropdown{
+        bottom: 1rem;
+    }
+    .fixed-header .main-box .logo-box .logo img{
+        z-index:999;
+        opacity:1;
+    }
+
+    .services-section .container-a .inner-box p{
+        font-size: 13px;
+    }
+    .services-section .strip .inner-box {
+        text-align-last: center;
+    }
+    .strip .inn-bg .container-a .row {
+        margin-bottom: 6rem;
+    }
+    .services-section .inner-container{
+        margin-top: 0rem;
+    }
+}
+@media screen and (min-width:764px) and (max-width:1023px)
+{
+    /*    .outer-box .search-box-outer .dropdown{
+            bottom: 5.5rem;
+        }*/
+/*        .call-to-action-section .link-column, .main-header .nav-outer .search-box-outer{
+               margin-top: -3rem;
+        }*/
+ .main-header .nav-outer .outer-box{
+            margin-top: -4.5rem;
+            margin-left: 30px;
+    }
+   
+    .call-to-action-section .link-column, .main-header .nav-outer .search-box-outer{
+        margin-top: -2.5rem;
+        padding: 5rem 2rem;
+            
+    }
+    .mnc .fixed-header .main-box .main-menu .navbar-collapse .navigation{	
+        margin-top: 23px;
+    }
+    .services-section .container-a .inner-box p{
+        padding: 3rem;
+        font-size: 15px;
+    }
+    .services-section .strip .inner-box img{
+        padding: 80px 10rem 35px;
+    }
+    
+
+}
