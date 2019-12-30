@@ -62,6 +62,17 @@ and open the template in the editor.
     text-align: justify;
     padding: 5rem 20rem;
     margin-bottom: 10rem;
+    margin-left: 10rem;
+
+}
+.content-services-inner-shqe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color:black;
+    text-align: justify;
+    padding: 2rem 35rem;
+    margin-bottom: 10rem;
 }
 aside .df-d1 .inner-images{
     width: 890rem;
@@ -84,9 +95,7 @@ aside .df-d1 .inner-images{
     height: 40rem;
 
 }
-.sheq_inner_pages{
-    padding: 0 50rem;
-}
+
 .contacnt-page-inner{
     display: flex;
     flex-direction: row;
@@ -113,13 +122,7 @@ aside .df-d1 .inner-images{
     /*    border: 1px solid #eae4e4;*/
     padding: 1rem 1rem;
 }
-.map-aytb, iframe{
-    width: 90%;
-    margin: 0 5rem; 
-    height: 50rem; 
-    display: flex; 
-    flex-direction: column;
-}
+
 .clientele-logos {
     /*    margin-bottom: 20rem;*/
     padding: 5rem 30rem;
@@ -317,6 +320,9 @@ aside .df-d1 .inner-images{
     padding: 0 5em;
     /*    border-left: 2px solid rgba(0,0,0,0.05);*/
 }
+.content-services-inner .content_text_inner_pages  .sheq_inner_pages{
+    padding: 0 10rem;
+}
 .content_services_inner_aside{
     width: 40%;
 }
@@ -417,6 +423,7 @@ aside .df-d1 .inner-images{
 .project-hover:hover{
     background-color:rgba(96, 125, 139, 0.1);
     cursor: pointer;
+
 }
 .tooltiptext-project{ 
     display: none; 
@@ -450,12 +457,19 @@ aside .df-d1 .inner-images{
 }
 .senior-img-left{
     width: 30%;
-    padding: 1rem;
+    padding:1rem;
     float: left;
 }
 .senior-text-right{
     float:right;
     width: 70%;
+}
+.padding-overview{
+    padding: 5rem 20rem;
+}
+.padding-overview .padding-text-overview{
+    padding: 0rem 0rem;
+
 }
 @media screen and (min-width: 1350px) {
     .page-wrapper-inner-pages .certificate-content{
@@ -489,7 +503,9 @@ aside .df-d1 .inner-images{
     }
     .page-wrapper-inner-pages .content-services-inner
     {
-        flex-direction: column;  
+        flex-direction: column; 
+        margin-left: 0rem;
+
     }
     .page-wrapper-inner-pages .content-services-inner .container-aside {
         margin: 1rem auto;
@@ -499,6 +515,7 @@ aside .df-d1 .inner-images{
 @media screen and (max-width: 500px){
     .page-wrapper-inner-pages .content_text_inner_pages{
         padding: 0 1rem;
+
         /*            border: none;*/
 
     }
@@ -513,9 +530,12 @@ aside .df-d1 .inner-images{
     }
     .page-wrapper  .content-services-inner{
         padding: 0 1rem;
+        margin-left: 0;
     }
     .page-wrapper-inner-pages  .content-services-inner{
         padding: 0 1rem;
+        margin-left: 0rem;
+
     }
     .d{
         padding: 5rem 3rem;
@@ -572,7 +592,7 @@ aside .df-d1 .inner-images{
     }
     .page-wrapper-inner-pages .clientele-logos{
         /*        display: flex;*/
-        padding: 1rem .5rem;
+        padding: 1rem 10rem;
         flex-direction: row;
         margin-left: 1rem;
         margin-top: 1rem;
@@ -650,7 +670,8 @@ aside .df-d1 .inner-images{
     }*/
     .page-wrapper-inner-pages .content-services-inner
     {
-        flex-direction: column;  
+        flex-direction: column; 
+        margin-left: 0rem;
     }
     .page-wrapper-inner-pages .content-services-inner .container-aside {
         margin: 1rem auto;
@@ -659,6 +680,17 @@ aside .df-d1 .inner-images{
     .content-services-inner .content_text_inner_pages .container-office{
         flex-direction: column;
     }
+    body .page-wrapper-inner-pages  .content-services-inner-shqe{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color:black;
+        text-align: justify;
+        padding: 1rem 1rem;
+        margin-bottom: 10rem;
+    }
+
+
 }
 @media screen and (min-width:500px) and (max-width: 700px){
     .main-story .row-story > .column-story{
@@ -684,6 +716,8 @@ aside .df-d1 .inner-images{
     .page-wrapper-inner-pages .content-services-inner{
         padding: 0 2.5rem ;
         flex-direction: column;
+        /*            margin-left: 0rem;*/
+
     }
 }
 @media screen and (min-width:700px) {
@@ -705,6 +739,7 @@ aside .df-d1 .inner-images{
     }
     .page-wrapper-inner-pages .content-services-inner{
         padding: 5rem 15.50rem;
+        /*        margin-left: 10rem;*/
     }
     /*  .page-wrapper-inner-pages .certificate-content{
       width: 100%;
@@ -713,6 +748,10 @@ aside .df-d1 .inner-images{
     .page-wrapper-inner-pages .content-services-inner .content_text_inner_pages{
         margin: 1rem 1rem;
     }
+    .page-wrapper-inner-pages .content-services-inner .sheq_inner_pages{
+        padding: 5rem 20rem;
+    }
+
 }
 
 @media screen and (min-width:500px) and (max-width: 1400px){
@@ -723,12 +762,13 @@ aside .df-d1 .inner-images{
     }
     .page-wrapper-inner-pages .content-services-inner{
         padding: 0 1.5rem ;
+        /*        margin-left: 10rem;*/
     }
     .page-wrapper-inner-pages .content-services-inner .content_text_inner_pages{
         padding: 0 1rem ;
     }
     .page-wrapper-inner-pages .red-margin-bar{
-        margin: 2.5rem 10rem;
+        margin: 2.5rem 1rem;
     }
     .background_title .center_title .title_inner_pages{
         font-size: 2em;
@@ -745,7 +785,7 @@ aside .df-d1 .inner-images{
 
     }
     .page-wrapper-inner-pages .paragraph-clientele {
-        margin: 1rem 10rem;
+        margin: 1rem 3.5rem;
     }
     .page-wrapper .red-margin-bar{
         margin: 2.5rem 5rem;
@@ -768,11 +808,21 @@ aside .df-d1 .inner-images{
         place-content: center;
     }
     .page-wrapper-inner-pages .content-services-inner .content_text_inner_pages{
-        margin: 5rem 6rem;
+        margin: 5rem 1rem;
     }
     .content-services-inner .mega-menu-bar .container-aside{
         margin: 5rem 2rem;
     }
-
-
+    body .page-wrapper-inner-pages  .content-services-inner-shqe{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color:black;
+        text-align: justify;
+        padding: 1rem 10rem;
+        margin-bottom: 10rem;
+    }
+    body .page-wrapper-inner-pages .padding-overview{
+        padding: 1rem 0rem;
+    }
 }
